@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	min-width: 768px;
+	
+}
+
+body { 
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5rem;
+	margin-bottom:1.4rem;
+	background-color:#006;
+} 
+
+
+img {   
+	width:100%;
+}
+
+.baseline {
+	background-image:url(../images/baseline.svg);
+}
+
+
+/*---------------------------masthead-------------------- */ 
+
+.masthead {
+	height: 6rem;
+	margin-bottom: 0; 
+	background-color:#006;
+}
+
+h1 {
+	font-size: 2.5rem;
+	color:#FFF;
+	position: absolute; 
+	margin: 2rem 0 0 4%;
+
+}
+
+h1 + p {
+	font-size: .75rem;
+	color: #CCC;
+	position:absolute;
+	margin: 4rem 0 0 4%;
+}
+/*---------------------------Article-------------------- */ 
+
+article {
+	padding: 2.5rem 4%;
+	background-color:#FFF;
+	margin:1.5rem 5% 0;
+}
+
+
+header {
+	height:4.5rem; 
+	margin-bottom:1rem;
+	background-color:#06F;
+}
+
+
+h2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:2rem;
+	position:absolute;
+	margin:1.5rem 0.2% 0; 
+	color:#FFF;
+}
+
+.photo {
+	width:30%;
+	float:left;
+	margin: 0 2.5% 1.5rem 0;  
+}
+
+p {
+	margin: .5rem 0 1.5rem 0;
+}
+
+footer {
+	height: 4.5rem;
+	background-color:#06F;
+	clear:both;
+}
+
+footer p {
+	position:absolute;
+	margin: 1.5rem 2% 0;
+	font-size:.875rem;
+} 
+
+.copyright {
+	height:8rem;
+	background-color:#006;
+}
+
+.copyright p {
+	position:absolute;
+	font-size:.875rem;
+	color:#fff;
+	margin:1.5rem 4% 0;
+}
